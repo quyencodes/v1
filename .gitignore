@@ -1,3 +1,8 @@
+# Dotenv - make sure not to push sensitive information up to GitHub
+.env
+
+# Default .gitignore node template below
+
 # Logs
 logs
 *.log
