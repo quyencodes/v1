@@ -14,7 +14,7 @@
 - [Libraries / Frameworks](#libraries--frameworks)
 - [Project Description 📝](#project-description-)
 - [Getting Started 🧑‍🍳](#getting-started-)
-- [Color Reference 🎨](#color-reference-)
+- [Color Palette 🎨](#color-palette-)
 
 ## Tech Stack
 <div align="left" width="100%">
@@ -62,7 +62,7 @@ I look forward to growing as a developer and learning new technologies as I cont
    http://localhost:3000
    ```
 
-## Color Reference 🎨
+## Color Palette 🎨
 | Color          | Hex                                                                |
 | -------------- | ------------------------------------------------------------------ |
 | Navy           | ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) `#0a192f` |
