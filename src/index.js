@@ -1,7 +1,11 @@
 import React from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
-const root = createRoot(document.getElementById('app'))
+import '../styles/globals.css'
+import '../styles/normalize.css'
+import '../styles/navbar.css'
+
+const root = createRoot(document.getElementById('root'))
 root.render(
   <React.StrictMode>
     <App />
