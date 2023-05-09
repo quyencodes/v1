@@ -9,7 +9,6 @@
   padding: 0;
   margin: 0;
   display: flex;
-  flex-direction: column;
   align-items: center;
   height: 100%;
 }
@@ -47,10 +46,6 @@
   min-width: 2rem;
   margin: 0 1.5rem;
 }
-/*
-.navbar:hover .link-text {
-  display:block;
-} */
 
 .fa-secondary {
   color: #df49a6;

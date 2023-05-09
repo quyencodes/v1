@@ -5,7 +5,7 @@
   --text-secondary: #ececec;
   --bg-primary: #23232e;
   --bg-secondary: #141418;
-  --transition-speed: 400ms;
+  --transition-speed: 500ms;
 }
 
 body {
@@ -35,6 +35,22 @@ body::-webkit-scrollbar-thumb {
 /* Small screens */
 @media only screen and (max-width: 600px) {
   /* media queries */
+  .navbar {
+    bottom: 0;
+    width: 100vw;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  main {
+    margin: 0 0 5rem 0; /* remove gap we previously set in main element */
+  }
 }
 
 /* Large screens */
@@ -44,10 +60,22 @@ body::-webkit-scrollbar-thumb {
     top: 0;
     width: 5rem;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
   }
 
   .navbar:hover {
     width: 16rem;
+  }
+
+  .logo svg {
+    /* solves weird edge case where animation would expand larger during animation after switching between browser and mobile */
+    max-height: 50%;
+    max-width: 50%;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
   }
 
   .navbar:hover .link-text {
@@ -55,33 +83,3 @@ body::-webkit-scrollbar-thumb {
     transition: opacity var(--transition-speed);
   }
 }
-
-/* @media screen and (min-width: 1441px) {
-  .container {
-    padding-inline: 12rem;
-  }
-}
-
-@media screen and (max-width: 1440px) {
-  .container {
-    padding-inline: 6rem;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .container {
-    padding-inline: 4rem;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .container {
-    padding-inline: 2rem;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .container {
-    padding-inline: 1rem;
-  }
-} */
