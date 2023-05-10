@@ -7,15 +7,20 @@
   --nav-text-secondary: #ececec;
   --nav-bg-primary: #23232e;
   --nav-bg-secondary: #141418;
-  --main-text-primary: #000000;
+  --main-text-primary: #110D11;
+  --main-text-secondary: #27272A;
+  --light-slate: #a8b2d1;
+  --lightest-slate: #ccd6f6;
+  --slate: #8892b0;
+  --main-bg: #2c2f33  ;
   --transition-speed: 500ms;
   --fz-xl: 20px;
   --jump-animation: -1px;
 }
 
 body {
-  color: black;
-  background-color: #ffffff;
+  color: var(--main-text-primary);
+  background-color: var(--main-bg);
   margin: 0;
   padding: 0;
 }

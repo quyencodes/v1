@@ -1,0 +1,50 @@
+.intro-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  /* flex box */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-greeting {
+  font-weight: 500;
+  font-size: clamp(16px, 1vw, 20px);
+  text-align: center;
+  color: var(--main-pink);
+}
+
+.intro-name {
+  font-size: clamp(40px, 8vw, 80px);
+  color: var(--lightest-slate);
+  margin: 0px;
+}
+
+.intro-title {
+  line-height: 1rem;
+  color: var(--slate);
+  font-size: clamp(18px, 3vw, 24px);
+}
+
+.intro-welcome {
+  width: 80%;
+  line-height: 1.25rem;
+  text-align: center;
+  color: var(--slate);
+  font-size: clamp(15px, 1vw, 19px);
+}
+
+.intro-body {
+  width: 70%;
+  line-height: 1.3rem;
+  text-align: center;
+  color: var(--slate);
+  font-size: clamp(13.5px, 1vw, 17.5px);
+}
+
+.intro-link {
+  color: var(--main-pink);
+  text-decoration: none;
+}
