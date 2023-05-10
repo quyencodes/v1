@@ -1,11 +1,16 @@
 :root {
   font-size: 16px;
   font-family: 'Open Sans', 'sans-serif';
-  --text-primary: #b6b6b6;
-  --text-secondary: #ececec;
-  --bg-primary: #23232e;
-  --bg-secondary: #141418;
+  --main-pink: #df49a6;
+  --main-grayscale: #808080;
+  --nav-text-primary: #b6b6b6;
+  --nav-text-secondary: #ececec;
+  --nav-bg-primary: #23232e;
+  --nav-bg-secondary: #141418;
+  --main-text-primary: #000000;
   --transition-speed: 500ms;
+  --fz-xl: 20px;
+  --jump-animation: -1px;
 }
 
 body {
@@ -20,6 +25,12 @@ main {
   padding: 1rem;
 }
 
+section {
+  height: 100vh;
+  min-height: 100vh;
+  padding: 0;
+}
+
 body::-webkit-scrollbar {
   width: .5rem;
 }
@@ -29,7 +40,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background: #6649b8;
+  background: var(--main-pink);
 }
 
 /* Small screens */
@@ -51,6 +62,13 @@ body::-webkit-scrollbar-thumb {
   main {
     margin: 0 0 5rem 0; /* remove gap we previously set in main element */
   }
+
+  /* footer */
+  footer {
+    display: none;
+    visibility: hidden;
+  }
+
 }
 
 /* Large screens */

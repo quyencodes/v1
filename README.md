@@ -11,7 +11,7 @@
 ## Table of Contents
 - [Table of Contents](#table-of-contents)
 - [Tech Stack](#tech-stack)
-- [Libraries / Frameworks](#libraries--frameworks)
+- [Other Technologies](#other-technologies)
 - [Project Description 📝](#project-description-)
 - [Getting Started 🧑‍🍳](#getting-started-)
 - [Color Palette 🎨](#color-palette-)
@@ -28,9 +28,12 @@
   <img src="https://img.shields.io/badge/Netlify-00C7B7.svg?style=for-the-badge&logo=Netlify&logoColor=white" alt="Netlify Badge"/>
 </div>
 
-## Libraries / Frameworks
+## Other Technologies
 <div>
   <img src="https://img.shields.io/badge/React%20Hook%20Form-EC5990.svg?style=for-the-badge&logo=React-Hook-Form&logoColor=white" alt="React Hook Forms Badge"/>
+  <img src="https://img.shields.io/badge/Google%20Fonts-4285F4.svg?style=for-the-badge&logo=Google-Fonts&logoColor=white" alt="Google Fonts"/>
+  <img src="https://img.shields.io/badge/Font%20Awesome-528DD7.svg?style=for-the-badge&logo=Font-Awesome&logoColor=white" alt="Font Awesome"/>
+
 </div>
 
 ## Project Description 📝
