@@ -62,11 +62,11 @@ footer a {
 }
 
 .links-container {
-  position: sticky;
+  /* position: sticky; */
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 52.5vw;
+  /* padding-left: 52.5vw; */
 
   list-style: none;
   margin: 0;

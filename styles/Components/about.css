@@ -1,0 +1,48 @@
+.about-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about-me-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-heading {
+  color: var(--lightest-slate);
+  margin-bottom: 1rem;
+}
+
+.about-body {
+  width: 49vw;
+  margin-right: 2.5rem;
+  font-weight: 300;
+  line-height: var(--main-lh);
+  font-size: clamp(15px, 1vw, 18px);
+}
+
+.about-list-container {
+  display: flex;
+  flex-direction: row;
+  line-height: 1.75rem;
+  font-size: clamp(15px, 1vw, 18px);
+  font-weight: 300;
+}
+
+.about-list {
+  list-style: square;
+}
+
+.about-headshot {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px var(--main-pink) solid;
+  border-radius: 50%;
+}

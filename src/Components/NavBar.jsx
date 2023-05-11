@@ -34,7 +34,7 @@ export default function NavBar() {
         </li>
 
         <li className="nav-item">
-          <a href="#" className="nav-link">
+          <a href="#about" className="nav-link">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
               <path
                 fill="currentColor"
@@ -47,7 +47,7 @@ export default function NavBar() {
         </li>
 
         <li className="nav-item">
-          <a href="#" className="nav-link">
+          <a href="#projects" className="nav-link">
             <svg
               aria-hidden="true"
               focusable="false"
@@ -71,7 +71,7 @@ export default function NavBar() {
         </li>
 
         <li className="nav-item">
-          <a href="#" className="nav-link">
+          <a href="#experience" className="nav-link">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
               <path
                 fill="currentColor"
@@ -84,7 +84,7 @@ export default function NavBar() {
         </li>
 
         <li className="nav-item">
-          <a href="#" className="nav-link">
+          <a href="#contact" className="nav-link">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
               <path
                 fill="currentColor"

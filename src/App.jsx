@@ -1,6 +1,6 @@
 import React from 'react'
 import NavBar from './Components/NavBar.jsx'
-import Intro from './Components/Intro.jsx'
+import Home from './Components/Intro.jsx'
 import About from './Components/About.jsx'
 import Projects from './Components/Projects.jsx'
 import Experience from './Components/Experience.jsx'
@@ -12,7 +12,7 @@ export default function App() {
     <>
       <NavBar />
       <main className="container">
-        <Intro />
+        <Home />
         <About />
         <Projects />
         <Experience />

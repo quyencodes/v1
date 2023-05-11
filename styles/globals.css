@@ -16,10 +16,11 @@
   --transition-speed: 500ms;
   --fz-xl: 20px;
   --jump-animation: -1px;
+  --main-lh: 1.5rem;
 }
 
 body {
-  color: var(--main-text-primary);
+  color: var(--slate);
   background-color: var(--main-bg);
   margin: 0;
   padding: 0;
@@ -70,6 +71,11 @@ body::-webkit-scrollbar-thumb {
 
   /* footer */
   footer {
+    display: none;
+    visibility: hidden;
+  }
+
+  .about-headshot, .about-photo {
     display: none;
     visibility: hidden;
   }
