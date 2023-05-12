@@ -6,19 +6,19 @@ export default function Home() {
       <h3 className="home-title">Full Stack Software Engineer</h3>
       <p className="home-welcome">
         Welcome to my personal portfolio. Here you'll learn more{' '}
-        <a className="home-link" href="#">
+        <a className="home-link" href="#about">
           about me
         </a>
         , my personal favorite{' '}
-        <a className="home-link" href="#">
+        <a className="home-link" href="#projects">
           projects
         </a>
         , past{' '}
-        <a className="home-link" href="#">
+        <a className="home-link" href="#experience">
           work experiences
         </a>
         , and a way to{' '}
-        <a className="home-link" href="#">
+        <a className="home-link" href="#contact">
           connect with me
         </a>
         .

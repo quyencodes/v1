@@ -15,16 +15,19 @@
 }
 
 .about-heading {
+  width: 50%;
   color: var(--lightest-slate);
+  padding-bottom: 2rem;
   margin-bottom: 1rem;
+  border-bottom: solid 2px var(--main-pink);
 }
 
 .about-body {
-  width: 49vw;
+  width: var(--main-width);
   margin-right: 2.5rem;
-  font-weight: 300;
+  font-weight: var(--fw-body);
   line-height: var(--main-lh);
-  font-size: clamp(15px, 1vw, 18px);
+  font-size: var(--fz-body);
 }
 
 .about-list-container {
@@ -39,10 +42,18 @@
   list-style: square;
 }
 
+ul {
+  list-style-image: url('../../assets/caret-right-solid.svg');
+}
+
 .about-headshot {
   display: flex;
   flex-direction: column;
   justify-content: center;
   border: 2px var(--main-pink) solid;
   border-radius: 50%;
+}
+
+.about-highlight {
+  color: var(--main-pink);
 }

@@ -69,7 +69,6 @@ export default function NavBar() {
             <span className="link-text">Projects</span>
           </a>
         </li>
-
         <li className="nav-item">
           <a href="#experience" className="nav-link">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">

@@ -15,8 +15,21 @@
   --main-bg: #2c2f33  ;
   --transition-speed: 500ms;
   --fz-xl: 20px;
+  --fz-xs: 13px;
+  --transition: all 0.25s cubic-bezier(0.645,0.045,0.355,1);
+
   --jump-animation: -1px;
   --main-lh: 1.5rem;
+  --main-width: 52vw;
+
+  /* body of text variables */
+  --fz-body: clamp(15px, 1vw, 18px);
+  --fw-body: 300;
+
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -47,6 +60,10 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
   background: var(--main-pink);
+}
+
+button {
+  cursor: pointer;
 }
 
 /* Small screens */
