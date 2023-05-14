@@ -20,6 +20,7 @@
   padding-bottom: 2rem;
   margin-bottom: 1rem;
   border-bottom: solid 2px var(--main-pink);
+  align-self: flex-start;
 }
 
 .about-body {
@@ -33,6 +34,8 @@
 .about-list-container {
   display: flex;
   flex-direction: row;
+  padding: 0px;
+  margin: 0px;
   line-height: 1.75rem;
   font-size: clamp(15px, 1vw, 18px);
   font-weight: 300;
@@ -40,7 +43,9 @@
 
 .about-list {
   list-style: square;
+  padding-left: 2rem;
 }
+
 
 /* ul {
   list-style-image: url('../../assets/caret-right-solid.svg');
@@ -50,6 +55,9 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 300;
+  height: 300;
+  min-width: 300px;
   border: 2px var(--main-pink) solid;
   border-radius: 50%;
 }

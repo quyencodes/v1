@@ -1,10 +1,19 @@
 export default function ExperienceItem({ expData, index }) {
   return (
-    <div className="experience-panel">
-      <h3 className="headline">Test</h3>
-      <p className="date-range">May 2018 - Present</p>
-      <ul>
-        <li>Test</li>
+    <div className="exp-panel">
+      <h3 className="exp-headline">
+        <span className="exp-t">{expData[index].title}</span>
+        <span className="exp-c"> @ {expData[index].companyName}</span>
+      </h3>
+      <p className="date-range">
+        {expData[index].startDate} - {expData[index].endDate}
+      </p>
+      <ul className="bullet-panel">
+        {expData[index].bullets.map((bullet, index) => (
+          <li className="bullet-points" key={index}>
+            {bullet}
+          </li>
+        ))}
       </ul>
     </div>
   )

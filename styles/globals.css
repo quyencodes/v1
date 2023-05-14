@@ -29,6 +29,9 @@
   --fz-body: clamp(15px, 1vw, 18px);
   --fw-body: 300;
 
+  --tab-height: 42px;
+  --tab-width: 120px;
+
 }
 
 html {
@@ -67,6 +70,11 @@ body::-webkit-scrollbar-thumb {
 
 button {
   cursor: pointer;
+  border: none;
+}
+
+li::before {
+  list-style-image: url('../assets//caret-right-solid.svg');
 }
 
 footer {

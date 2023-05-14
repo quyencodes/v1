@@ -16,12 +16,12 @@ export default function Experience() {
       <div className="exp-container">
         <h2 className="exp-heading">Relevant Professional Experience</h2>
         <div className="exp-inner">
-          <div className="exp-companys">
+          <div className="tablist">
             {experienceData.map((exp, index) => {
               return (
                 <button
                   onClick={() => changeCompanyIndex(index)}
-                  className="company-buttons"
+                  className={slideIdx === index ? 'tab active' : 'tab'}
                   key={index}
                 >
                   {exp.companyName}

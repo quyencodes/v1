@@ -3,6 +3,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 100%;
+  width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -13,6 +15,7 @@
   padding-bottom: 2rem;
   margin-bottom: 3rem;
   border-bottom: solid 2px var(--main-pink);
+  align-self: flex-start;
 }
 
 
@@ -114,4 +117,5 @@
   font-size: 12px;
   line-height: 1.75;
   color: var(--slate);
+  font-weight: 500;
 }

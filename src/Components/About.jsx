@@ -5,29 +5,59 @@ export default function About() {
         <div className="about-me-section">
           <h2 className="about-heading">About Me</h2>
           <p className="about-body p1">
-            Hello there! My name is Quyen (Q) Hoang and I'm passionate about web
+            Hello there! My name is Quyen (Q) and I&#39;m passionate about web
             development. My interest in programming started back when I took my
-            first introduction to programming course in python back in 2021 - I
-            had a tough time first learning how to program, but found the
-            experience to be very rewarding. Now, I code full-time and have
-            plans to further my knowledge through self-studying and real world
-            life experiences.
+            first{' '}
+            <a
+              style={{ textDecoration: 'none', color: '#df49a6' }}
+              href="https://web-app.usc.edu/soc/syllabus/20201/31881.pdf"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
+              Introduction to Programming - Python{' '}
+            </a>
+            course back in 2021 - I had a tough time first learning how to code,
+            but I found the experience to be very rewarding. Now, I code
+            full-time and have plans to further my knowledge through
+            self-studying and real world life experiences.
           </p>
           <p className="about-body p2">
-            My career interests originally started in accounting, I made a
-            switch to investment banking my junior year of university, after
-            university worked for an investment bank as a technology investment
-            banking analyst for a year, and now I'm a self-taught programmer
-            actively looking for full stack opportunities.
+            My career interests originally started in accounting, I had the
+            privilege of interning at{' '}
+            <a
+              style={{ textDecoration: 'none', color: '#df49a6' }}
+              href="https://kpmg.com"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
+              a Big 4 accounting firm
+            </a>
+            . I made the switch to finance my third year of university, and had
+            internships in{' '}
+            <a
+              style={{ textDecoration: 'none', color: '#df49a6' }}
+              href="https://www.clearbridgellc.net/"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
+              private equity
+            </a>{' '}
+            and{' '}
+            <a
+              style={{ textDecoration: 'none', color: '#df49a6' }}
+              href="https://www.wellsfargo.com/cib/"
+              rel="noreferrer noopener"
+              target="_blank"
+            >
+              investment banking
+            </a>
+            . After university, I returned to the same bank as a technology
+            investment banking analyst, worked there for a year, and now I&#39;m
+            a self-taught programmer actively looking for full stack
+            opportunities.
           </p>
-          {/* <p className="about-body p3">
-            I look forward to bringing my unique background in business and
-            computer programming to provide value to a team with an innovative
-            product. I'm ambitious, hard working and am passionate about helping
-            and growing with others.
-          </p> */}
           <p className="about-body p4">
-            Here are a few technologies, I've been working with recently:
+            Here are a few technologies I&#39;ve been working with recently:
           </p>
           <div className="about-list-container">
             <ul className="about-list">

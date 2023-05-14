@@ -22,14 +22,77 @@
   flex-direction: row;
 }
 
-.exp-companys {
+.tablist {
+  position: relative;
+  z-index: 1;
+  width: max-content;
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
   display: flex;
   flex-direction: column;
 }
 
-.company-buttons {
+.tab {
+  position: relative;
+  transition: var(--transition);
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: var(--tab-height);
+  width: 100%;
+  padding: 0px 20px 2px;
+  margin-right: 2rem;
+  border-left: 2px solid var(--nav-bg-primary);
+  background-color: transparent;
+  color: var(--light-slate);
+  font-size: var(--fz-xs);
+  text-align: left;
+  white-space: nowrap;
+}
+
+.active {
   color: var(--main-pink);
-  background: transparent;
-  border: none;
+  border-left: 2px solid var(--main-pink);
+}
+
+/* ExperienceItem Section */
+.exp-panel {
+  width: 100%;
+  height: auto;
+  padding: 10px 5px;
+  transition: var(--transition);
+}
+
+.exp-headline {
+  margin-bottom: 2px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.3;
+  color: var(--lightest-slate);
+}
+
+.exp-c {
+  color: var(--main-pink);
+}
+
+.date-range {
+  margin-bottom: 2rem;
+  color: var(--light-slate);
+  font-size: var(--fz-xs);
+  font-weight: 300;
+}
+
+.bullet-panel {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  font-size: 15px;
+  line-height: 1.2rem;
+  font-weight: 300;
+}
+
+.bullet-points {
+  position: relative;
   margin-bottom: 1rem;
 }
