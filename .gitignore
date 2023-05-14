@@ -1,5 +1,6 @@
 # Dotenv - make sure not to push sensitive information up to GitHub
 .env
+build
 
 # Default .gitignore node template below
 
