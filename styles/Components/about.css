@@ -42,9 +42,9 @@
   list-style: square;
 }
 
-ul {
+/* ul {
   list-style-image: url('../../assets/caret-right-solid.svg');
-}
+} */
 
 .about-headshot {
   display: flex;

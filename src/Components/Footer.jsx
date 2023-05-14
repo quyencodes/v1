@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <div className="footer-container">
+    <div className="footer-subcontainer">
       <a
         href="https://github.com/quyencodes/v1"
         target="_blank"

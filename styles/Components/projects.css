@@ -1,10 +1,117 @@
 .projects-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
-  width: 100%;
   margin-left: auto;
   margin-right: auto;
+}
+
+.projects-heading {
+  width: 50%;
+  color: var(--lightest-slate);
+  padding-bottom: 2rem;
+  margin-bottom: 3rem;
+  border-bottom: solid 2px var(--main-pink);
+}
+
+
+/* folder container */
+.folder-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 35px;
+  position: relative;
+}
+
+/* project item section */
+.project-main {
+  text-decoration: none;
+  position: relative;
+  margin-bottom: 3rem;
+}
+
+.project-main:hover .project-title {
+  color: var(--main-pink);
+  transition: var(--transition-speed);
+}
+
+.project-main:hover .project-inner {
+  top: -.25rem;
+  transition: var(--transition-speed);
+}
+
+.project-inner {
+  box-shadow: 0 10px 30px -15px var(--navy-shadow);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  height: 100%;
+  width: 20rem;
+  padding: 2rem 1.75rem;
+  border-radius: 4px;
+  background-color: var(--nav-bg-primary);
+  transition-duration: 500ms;
+  overflow: auto;
+}
+
+.project-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.project-folder svg {
+  width: 30px;
+  height: 30px;
+}
+
+.project-link svg {
+  width: 25px;
+  height: 25px;
+}
+
+.fa-project {
+  color: var(--main-pink);
+}
+
+.project-title {
+  margin: 0px 0px 10px;
+  color: var(--lightest-slate);
+  font-size: 18px;
+  text-decoration: none;
+  margin-bottom: 1rem;
+}
+
+/* .project-title:hover {
+  color: var(--main-pink);
+  transition: var(--transition-speed);
+} */
+
+.project-description {
+  color: var(--light-slate);
+  font-size: 14.5px;
+  font-weight: var(--fw-body);
+  line-height: 1.5;
+}
+
+/* tech stack list */
+.project-techstack {
+  display: flex;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  padding: 0px;
+  margin: 20px 0px 0px;
+  list-style: none;
+}
+
+.project-techstack li {
+  margin-right: 15px;
+  font-size: 12px;
+  line-height: 1.75;
+  color: var(--slate);
 }

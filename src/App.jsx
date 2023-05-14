@@ -18,9 +18,9 @@ export default function App() {
         <Experience />
         <Contact />
       </main>
-      <footer>
+      {/* <footer className="footer-container">
         <Footer />
-      </footer>
+      </footer> */}
     </>
   )
 }

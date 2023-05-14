@@ -16,6 +16,15 @@
   color: var(--main-pink);
 }
 
+.contact-subheading {
+  color: var(--lightest-slate);
+  width: 50%;
+  text-align: center;
+  border-bottom: solid 2px var(--main-pink);
+  margin-bottom: 1rem;
+  padding-bottom: 2rem;
+}
+
 .contact-body {
   width: var(--main-width);
   font-size: var(--fz-body);
