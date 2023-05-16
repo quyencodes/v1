@@ -5,9 +5,8 @@ export default function About() {
         <div className="about-me-section">
           <h2 className="about-heading">About Me</h2>
           <p className="about-body p1">
-            Hello there! My name is Quyen (Q) and I&#39;m passionate about web
-            development. My interest in programming started back when I took my
-            first{' '}
+            My name is Quyen (Q) and I&#39;m passionate about web development.
+            My interest in programming started back when I took my first{' '}
             <a
               style={{ textDecoration: 'none', color: '#df49a6' }}
               href="https://web-app.usc.edu/soc/syllabus/20201/31881.pdf"
