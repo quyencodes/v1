@@ -1,5 +1,5 @@
 <div align="center">
-  <img style="margin-top: 0px" src="https://user-images.githubusercontent.com/104607182/198861294-a3c1a341-0f11-4cdd-bba1-c4a254c40fc6.png" alt="Quyen Hoang" width="130">
+  <!-- <img style="margin-top: 0px" src="https://user-images.githubusercontent.com/104607182/198861294-a3c1a341-0f11-4cdd-bba1-c4a254c40fc6.png" alt="Quyen Hoang" width="130"> -->
   <h1 align="center" style="margin-top: 0rem;">
     quyenhoang.dev
   </h1>
