@@ -1,5 +1,5 @@
 <div align="center">
-  <img style="margin-top: 0px" src="https://user-images.githubusercontent.com/104607182/198861294-a3c1a341-0f11-4cdd-bba1-c4a254c40fc6.png" alt="Quyen Hoang" width="100">
+  <img style="margin-top: 0px" src="https://user-images.githubusercontent.com/104607182/198861294-a3c1a341-0f11-4cdd-bba1-c4a254c40fc6.png" alt="Quyen Hoang" width="130">
   <h1 align="center" style="margin-top: 0rem;">
     quyenhoang.dev
   </h1>
@@ -50,7 +50,7 @@
 
 | Browser View
 :-:
-<img src="https://github.com/quyencodes/v1/assets/104607182/90814e12-0673-42f4-9404-ed5052753a6e" width="00">|
+<img src="https://github.com/quyencodes/v1/assets/104607182/90814e12-0673-42f4-9404-ed5052753a6e" width="500">|
 
 ## Project Description 📝
 A simple web application that is safe to use on the browser and mobile device. The main sections/features of my portfolio include:
