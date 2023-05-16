@@ -21,8 +21,8 @@ export default function About() {
             self-studying and real world life experiences.
           </p>
           <p className="about-body p2">
-            My career interests originally started in accounting; I had the
-            privilege of interning at{' '}
+            In college, my career exploration began with accounting, leading me
+            to intern at a{' '}
             <a
               style={{ textDecoration: 'none', color: '#df49a6' }}
               href="https://kpmg.com"
@@ -30,12 +30,12 @@ export default function About() {
               target="_blank"
             >
               a Big 4 accounting firm
-            </a>
-            . I made the switch to finance my third year of university, and had
-            internships in{' '}
+            </a>{' '}
+            in my second year. My exploration expanded into finance, and I
+            interned in{' '}
             <a
               style={{ textDecoration: 'none', color: '#df49a6' }}
-              href="https://www.clearbridgellc.net/"
+              href="https://www.clearbridgellc.net"
               rel="noreferrer noopener"
               target="_blank"
             >
@@ -44,15 +44,16 @@ export default function About() {
             and{' '}
             <a
               style={{ textDecoration: 'none', color: '#df49a6' }}
-              href="https://www.wellsfargo.com/cib/"
+              href="https://www.wellsfargo.com/cib"
               rel="noreferrer noopener"
               target="_blank"
             >
               investment banking
             </a>
             . After university, I returned to the same bank as a technology
-            investment banking analyst, worked there for a year, and now I&#39;m
-            a self-taught programmer actively looking for full stack
+            investment banking analyst, where I primarily covered software,
+            internet and semiconductor companies. Fast forward to the present,
+            I&#39;m a self-taught programmer actively looking for full stack
             opportunities.
           </p>
           <p className="about-body p4">

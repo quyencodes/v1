@@ -18,9 +18,9 @@ const data = [
     endDate: 'April 2022',
     bullets: [
       'Collaborated in teams of 2-4 to lead day-to-day execution of M&A, debt, equity offerings and capital market transactions',
-      'Coordinate across product and coverage groups to conduct due diligence and prepare client materials',
+      'Coordinated across product and coverage groups to conduct due diligence and prepare client materials',
       'Lead efforts in industry/company research, due diligence, modeling, valuation and presentation assembly',
-      'Create and manage weekly semiconductor trading and transaction comps for internal team and clients',
+      'Created and managed weekly semiconductor trading and transaction comps for internal team and clients',
       'Public transactions: Vroom (NASDAQ: VRM) $300mm Acquisition of United Auto Credit Corporation',
     ],
   },
