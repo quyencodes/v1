@@ -7,7 +7,6 @@ export default function Experience() {
   const [slideIdx, setSlideIdx] = useState(0)
 
   const changeCompanyIndex = (index) => {
-    console.log(index)
     setSlideIdx(index)
   }
 
