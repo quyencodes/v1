@@ -11,7 +11,7 @@
 
 .contact-subheading {
   color: var(--lightest-slate);
-  font-size: clamp(40px, 5vw, 60px);
+  font-size: clamp(25px, 6vw, 60px);
   text-align: center;
   /* border-bottom: solid 2px var(--main-pink); */
   margin-bottom: 1rem;

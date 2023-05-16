@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "type": "module",
+  "homepage": ".",
   "scripts": {
     "build": "webpack",
     "dev": "npx webpack-dev-server --port=3000",

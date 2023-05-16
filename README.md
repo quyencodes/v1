@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/104607182/198861294-a3c1a341-0f11-4cdd-bba1-c4a254c40fc6.png" alt="Quyen Hoang" width="100">
+  <img src="https://user-images.githubusercontent.com/104607182/198861294-a3c1a341-0f11-4cdd-bba1-c4a254c40fc6.png" alt="Quyen Hoang" style="margin-bottom: 0" width="100">
   <h1 align="center">
     quyenhoang.dev
   </h1>
@@ -40,6 +40,7 @@
   <img src="https://img.shields.io/badge/React%20Hook%20Form-EC5990.svg?style=for-the-badge&logo=React-Hook-Form&logoColor=white" alt="React Hook Forms Badge"/>
   <img src="https://img.shields.io/badge/MUI-007FFF.svg?style=for-the-badge&logo=MUI&logoColor=white" alt="Matrial UI Badge"/>
   <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4.svg?style=for-the-badge&logo=Tailwind-CSS&logoColor=white" alt="CSS Tailwind Badge"/>
+  <img src="https://img.shields.io/badge/CSS_Scroll_Animations-1572B6.svg?style=for-the-badge&logo=CSS3&logoColor=white" alt="CSS Animation Badge"/>
 </div>
 
 ## Project Description 📝
