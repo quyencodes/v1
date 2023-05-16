@@ -9,7 +9,7 @@ export default function Footer() {
       >
         <p className="footer-item">Designed & built by Quyen Hoang</p>
       </a>
-      <ul className="links-container">
+      {/* <ul className="links-container">
         <li className="link-item">
           <a
             href="https://github.com/quyencodes"
@@ -48,7 +48,7 @@ export default function Footer() {
           </a>
         </li>
         <div className="v-bar"></div>
-      </ul>
+      </ul> */}
     </div>
   )
 }

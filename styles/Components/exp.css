@@ -3,14 +3,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100%;
-  width: 100%;
+  min-height: 100vh;
+  max-width: 900px;
+  /* min-width: 100%; */
   margin-left: auto;
   margin-right: auto;
 }
 
 .exp-heading {
-  width: 50%;
+  width: 100%;
   color: var(--lightest-slate);
   padding-bottom: 2rem;
   margin-bottom: 1rem;
@@ -19,18 +20,16 @@
 
 .exp-inner {
   display: flex;
-  flex-direction: row;
 }
 
 .tablist {
+  display: flex;
   position: relative;
   z-index: 1;
   width: max-content;
-  padding: 0px;
+  padding: .5rem 0px 0px;
   margin: 0px;
   list-style: none;
-  display: flex;
-  flex-direction: column;
 }
 
 .tab {
@@ -43,7 +42,6 @@
   width: 100%;
   padding: 0px 20px 2px;
   margin-right: 2rem;
-  border-left: 2px solid var(--nav-bg-primary);
   background-color: transparent;
   color: var(--light-slate);
   font-size: var(--fz-xs);
@@ -51,16 +49,17 @@
   white-space: nowrap;
 }
 
-.active {
-  color: var(--main-pink);
-  border-left: 2px solid var(--main-pink);
-}
+
 
 /* ExperienceItem Section */
+.exp-info-container {
+  min-height: 400px;
+}
+
 .exp-panel {
-  width: 100%;
+  min-width: 100%;
   height: auto;
-  padding: 10px 5px;
+  padding: 0xp 10px 5px;
   transition: var(--transition);
 }
 

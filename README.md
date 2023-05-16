@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Logo" src="https://user-images.githubusercontent.com/104607182/236380455-66753370-c9c0-4f61-aa73-49e22a18392f.png"/>
+  <img src="https://user-images.githubusercontent.com/104607182/198861294-a3c1a341-0f11-4cdd-bba1-c4a254c40fc6.png" alt="Quyen Hoang" width="72">
 </div>
 <h1 align="center">
   quyenhoang.dev
@@ -12,6 +12,7 @@
 - [Table of Contents](#table-of-contents)
 - [Tech Stack](#tech-stack)
 - [Other Technologies](#other-technologies)
+- [Future Technologies In Progress](#future-technologies-in-progress)
 - [Project Description 📝](#project-description-)
 - [Getting Started 🧑‍🍳](#getting-started-)
 - [Color Palette 🎨](#color-palette-)
@@ -30,10 +31,15 @@
 
 ## Other Technologies
 <div>
-  <img src="https://img.shields.io/badge/React%20Hook%20Form-EC5990.svg?style=for-the-badge&logo=React-Hook-Form&logoColor=white" alt="React Hook Forms Badge"/>
   <img src="https://img.shields.io/badge/Google%20Fonts-4285F4.svg?style=for-the-badge&logo=Google-Fonts&logoColor=white" alt="Google Fonts"/>
   <img src="https://img.shields.io/badge/Font%20Awesome-528DD7.svg?style=for-the-badge&logo=Font-Awesome&logoColor=white" alt="Font Awesome"/>
+</div>
 
+## Future Technologies In Progress
+<div>
+  <img src="https://img.shields.io/badge/React%20Hook%20Form-EC5990.svg?style=for-the-badge&logo=React-Hook-Form&logoColor=white" alt="React Hook Forms Badge"/>
+  <img src="https://img.shields.io/badge/MUI-007FFF.svg?style=for-the-badge&logo=MUI&logoColor=white" alt="Matrial UI Badge"/>
+  <img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4.svg?style=for-the-badge&logo=Tailwind-CSS&logoColor=white" alt="CSS Tailwind Badge"/>
 </div>
 
 ## Project Description 📝

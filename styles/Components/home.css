@@ -1,14 +1,15 @@
 .home-container {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  /* flex box */
   display: flex;
   flex-direction: column;
   justify-content: center;
+  position: relative;
   align-items: center;
+  min-height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
 }
 
+/* Hello there! I'm */
 .home-greeting {
   font-weight: 500;
   font-size: clamp(16px, 1vw, 20px);
@@ -17,16 +18,21 @@
   margin-bottom: 1rem;
 }
 
+/* Quyen Hoang */
 .home-name {
   font-size: clamp(40px, 8vw, 80px);
   color: var(--lightest-slate);
   margin: 0px;
+  margin-bottom: 1rem;
 }
 
+/* Full Stack Software Engineer */
 .home-title {
   line-height: 1rem;
   color: var(--slate);
-  font-size: clamp(18px, 3vw, 24px);
+  font-size: clamp(15.5px, 1vw, 18.5px);
+  font-weight: 500;
+  margin-bottom: 1rem;
 }
 
 .home-welcome {
@@ -35,7 +41,8 @@
   text-align: center;
   color: var(--slate);
   font-weight: 300;
-  font-size: clamp(16px, 1vw, 19px);
+  font-size: clamp(15.5px, 1vw, 18.5px);
+  margin-bottom: 1rem;
 }
 
 .home-body {
@@ -45,6 +52,7 @@
   color: var(--slate);
   font-weight: 300;
   font-size: clamp(15px, 1vw, 18px);
+  margin-bottom: 1rem;
 }
 
 .home-link {

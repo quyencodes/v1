@@ -2,9 +2,8 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  height: 100%;
-  width: 100%;
+  min-height: 100vh;
+  max-width: 72vw;
   margin-left: auto;
   margin-right: auto;
 }
@@ -18,12 +17,12 @@
   align-self: flex-start;
 }
 
-
 /* folder container */
 .folder-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  /* justify-content: flex-start; */
   gap: 35px;
   position: relative;
 }
@@ -50,7 +49,7 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  align-items: flex-start;
+  flex-wrap: wrap;
   position: relative;
   height: 100%;
   width: 20rem;

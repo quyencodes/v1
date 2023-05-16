@@ -12,7 +12,7 @@ class Project {
 
 const data = [
   {
-    title: 'Retail eCommerce Microservice | System Design',
+    title: 'Retail eCommerce Microservice',
     description:
       'Transformed legacy API into a scalable RESTful microservice to support a high traffic retail web-portal',
     role: 'Back End Software Engineer',

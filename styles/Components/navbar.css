@@ -34,8 +34,8 @@
 
 .nav-link:hover {
   filter: grayscale(0%) opacity(1);
-  background: var(--nav-bg-secondary);
-  color: var(--nav-text-secondary)
+  background: var(--nav-bg-hover);
+  color: var(--nav-text-hover)
 }
 
 .link-text {
@@ -58,8 +58,8 @@
   text-transform: uppercase;
   margin-bottom: 1rem;
   text-align: center;
-  color: var(--nav-text-secondary);
-  background: var(--nav-bg-secondary);
+  color: var(--nav-text-hover);
+  background: var(--nav-bg-hover);
   font-size: 1.25rem;
   text-transform: uppercase;
   letter-spacing: 0.25ch;

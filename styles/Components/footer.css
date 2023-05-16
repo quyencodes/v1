@@ -4,7 +4,9 @@
   max-height: 10rem;
 
   display: flex;
-  font-size: 16px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .footer-subcontainer {
@@ -36,7 +38,7 @@ footer a {
 .footer-link:hover {
   filter: grayscale(0%) opacity(1);
   color: var(--main-pink);
-  top: -5rem;
+  top: -2px;
 }
 
 .footer-link svg {
