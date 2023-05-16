@@ -50,7 +50,7 @@
 
 | Browser View
 :-:
-<img src="https://github.com/quyencodes/v1/assets/104607182/90814e12-0673-42f4-9404-ed5052753a6e" width="500">|
+<img src="https://github.com/quyencodes/v1/assets/104607182/c461f191-f499-423e-ba46-36edb37d5ab4" width="500">|
 
 ## Project Description 📝
 A simple web application that is safe to use on the browser and mobile device. The main sections/features of my portfolio include:
