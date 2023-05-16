@@ -1,9 +1,9 @@
 <div align="center">
   <img src="https://user-images.githubusercontent.com/104607182/198861294-a3c1a341-0f11-4cdd-bba1-c4a254c40fc6.png" alt="Quyen Hoang" width="100">
+  <h1 align="center">
+    quyenhoang.dev
+  </h1>
 </div>
-<h1 align="center">
-  quyenhoang.dev
-</h1>
 <p align="center">
   The first iteration of <a href="https://quyenhoang.dev" target="_blank"> quyenhoang.dev</a> built with <a ref="https://react.dev/" target="_blank">React</a> and hosted on <a ref="https://www.netlify.com/" target="_blank">Netlify</a>.
 </p>
@@ -51,7 +51,7 @@ A simple web application that is safe to use on the browser and mobile device. T
 - Honorable Project Mentions
 - Contact Me Page
 
-I look forward to growing as a developer and learning new technologies as I continue my career in software development. These are some of the fundamental web development concepts I've learned from my time at Hack Reactor and self-studying, so I look forward to looking back on this and seeing how much I've grown.
+v1 is a MVP of my personal portfolio. I mainly wanted it to be browser and mobile safe, while still communicating the necessary information for visitors and having the appropriate logic in the code base. There are a few technologies I'm excited to work with as I continue to contribute to this code base, but for now, these technologies are mainly what I'm comfortable with and have implemented.
 
 ## Getting Started 🧑‍🍳
 1. Fork and clone the repository:
