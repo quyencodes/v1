@@ -1,8 +1,8 @@
 <div align="center">
   <img style="margin-top: 0px" src="https://user-images.githubusercontent.com/104607182/198861294-a3c1a341-0f11-4cdd-bba1-c4a254c40fc6.png" alt="Quyen Hoang" width="100">
-  <h1 align="center">
+  <h2 align="center" style="border-bottom: 1px solid #ccc; padding-bottom: 1rem; margin-bottom: 1rem;">
     quyenhoang.dev
-  </h1>
+  </h2>
 </div>
 <p align="center">
   The first iteration of <a href="https://quyenhoang.dev" target="_blank"> quyenhoang.dev</a> built with <a href="https://react.dev/" target="_blank">React</a> and hosted on <a href="https://www.netlify.com/" target="_blank">Netlify</a>.
