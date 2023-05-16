@@ -121,15 +121,15 @@ button {
     flex-direction: column;
   }
 
-  .about-photo {
-    margin-bottom: 7.5em;
+  .about-photo > img {
+    margin-bottom: 10rem;
+    min-height: 60vw;
+    min-width: 60vw;
   }
 
   .exp-inner {
     width: 100%;
     flex-direction: column;
-    /* padding: 0 10rem 0; */
-    /* margin: 0 10rem 0; */
   }
 
   .exp-info-container {

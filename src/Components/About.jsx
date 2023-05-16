@@ -77,7 +77,6 @@ export default function About() {
             className="about-headshot"
             src="https://user-images.githubusercontent.com/104607182/198861294-a3c1a341-0f11-4cdd-bba1-c4a254c40fc6.png"
             alt="Quyen Hoang"
-            width="350vw"
           ></img>
         </div>
       </div>
