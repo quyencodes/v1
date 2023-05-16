@@ -1,8 +1,8 @@
 <div align="center">
   <img style="margin-top: 0px" src="https://user-images.githubusercontent.com/104607182/198861294-a3c1a341-0f11-4cdd-bba1-c4a254c40fc6.png" alt="Quyen Hoang" width="100">
-  <h2 align="center" style="border-bottom: 1px solid #ccc; padding-bottom: 1rem; margin-bottom: 1rem; margin-top: 0rem;">
+  <div align="center" style="font-size: 2rem; border-bottom: #333 solid 2px; padding-bottom: 1rem; margin-bottom: 1rem;">
     quyenhoang.dev
-  </h2>
+  </div>
 </div>
 <p align="center">
   The first iteration of <a href="https://quyenhoang.dev" target="_blank"> quyenhoang.dev</a> built with <a href="https://react.dev/" target="_blank">React</a> and hosted on <a href="https://www.netlify.com/" target="_blank">Netlify</a>.
@@ -13,6 +13,7 @@
 - [Tech Stack](#tech-stack)
 - [Other Technologies](#other-technologies)
 - [Future Technologies In Progress](#future-technologies-in-progress)
+- [Video Demonstration 🎥](#video-demonstration-)
 - [Project Description 📝](#project-description-)
 - [Getting Started 🧑‍🍳](#getting-started-)
 
@@ -42,13 +43,21 @@
   <img src="https://img.shields.io/badge/CSS_Scroll_Animations-1572B6.svg?style=for-the-badge&logo=CSS3&logoColor=white" alt="CSS Animation Badge"/>
 </div>
 
+## Video Demonstration 🎥
+| Mobile View
+:-:
+<img src="https://github.com/quyencodes/v1/assets/104607182/4de90063-31ff-4720-a397-1f6e8faa2c32" width="200">|
+
+| Browser View
+:-:
+<img src="https://github.com/quyencodes/v1/assets/104607182/90814e12-0673-42f4-9404-ed5052753a6e" width="450">|
+
 ## Project Description 📝
 A simple web application that is safe to use on the browser and mobile device. The main sections/features of my portfolio include:
 
 - About Me
 - Timeline of Work Experiences
 - Main Projects
-- Honorable Project Mentions
 - Contact Me Page
 
 v1 is a MVP of my personal portfolio. I mainly wanted it to be browser and mobile safe, while still communicating the necessary information for visitors and having the appropriate logic in the code base. There are a few technologies I'm excited to work with as I continue to contribute to this code base, but for now, these technologies are mainly what I'm comfortable with and have implemented.
