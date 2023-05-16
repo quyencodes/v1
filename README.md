@@ -1,8 +1,8 @@
 <div align="center">
   <img style="margin-top: 0px" src="https://user-images.githubusercontent.com/104607182/198861294-a3c1a341-0f11-4cdd-bba1-c4a254c40fc6.png" alt="Quyen Hoang" width="100">
-  <div align="center" style="font-size: 2rem; border-bottom: #333 solid 2px; padding-bottom: 1rem; margin-bottom: 1rem;">
+  <h1 align="center" style="margin-top: 0rem;">
     quyenhoang.dev
-  </div>
+  </h1>
 </div>
 <p align="center">
   The first iteration of <a href="https://quyenhoang.dev" target="_blank"> quyenhoang.dev</a> built with <a href="https://react.dev/" target="_blank">React</a> and hosted on <a href="https://www.netlify.com/" target="_blank">Netlify</a>.
@@ -50,7 +50,7 @@
 
 | Browser View
 :-:
-<img src="https://github.com/quyencodes/v1/assets/104607182/90814e12-0673-42f4-9404-ed5052753a6e" width="450">|
+<img src="https://github.com/quyencodes/v1/assets/104607182/90814e12-0673-42f4-9404-ed5052753a6e" width="00">|
 
 ## Project Description 📝
 A simple web application that is safe to use on the browser and mobile device. The main sections/features of my portfolio include:
@@ -58,6 +58,7 @@ A simple web application that is safe to use on the browser and mobile device. T
 - About Me
 - Timeline of Work Experiences
 - Main Projects
+- Honorable Project Mentions
 - Contact Me Page
 
 v1 is a MVP of my personal portfolio. I mainly wanted it to be browser and mobile safe, while still communicating the necessary information for visitors and having the appropriate logic in the code base. There are a few technologies I'm excited to work with as I continue to contribute to this code base, but for now, these technologies are mainly what I'm comfortable with and have implemented.
