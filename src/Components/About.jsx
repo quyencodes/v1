@@ -21,7 +21,7 @@ export default function About() {
             self-studying and real world life experiences.
           </p>
           <p className="about-body p2">
-            My career interests originally started in accounting, I had the
+            My career interests originally started in accounting; I had the
             privilege of interning at{' '}
             <a
               style={{ textDecoration: 'none', color: '#df49a6' }}
