@@ -172,6 +172,10 @@ button {
   .contact-container {
     min-height: 60vh;
   }
+
+  .folder-container {
+    margin-bottom: 10rem;
+  }
 }
 
 /* Large screens */
