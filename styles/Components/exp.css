@@ -20,6 +20,7 @@
 
 .exp-inner {
   display: flex;
+  margin: 1rem 0rem;
 }
 
 .tablist {
@@ -28,7 +29,8 @@
   z-index: 1;
   width: max-content;
   padding: .5rem 0px 0px;
-  margin: 0px;
+  margin-bottom: 2rem;
+  /* margin: 0px; */
   list-style: none;
 }
 
@@ -37,9 +39,7 @@
   transition: var(--transition);
   display: flex;
   align-items: center;
-  width: 100%;
   height: var(--tab-height);
-  width: 100%;
   padding: 0px 20px 2px;
   margin-right: 2rem;
   background-color: transparent;
@@ -49,17 +49,13 @@
   white-space: nowrap;
 }
 
-
-
 /* ExperienceItem Section */
 .exp-info-container {
   min-height: 400px;
 }
 
 .exp-panel {
-  min-width: 100%;
-  height: auto;
-  padding: 0xp 10px 5px;
+  padding: 0px 10px 5px;
   transition: var(--transition);
 }
 
@@ -84,8 +80,8 @@
 
 .bullet-panel {
   padding: 0px;
-  margin: 0px;
-  list-style: none;
+  margin: 0px 0rem 0px 1rem;
+  list-style: square;
   font-size: 15px;
   line-height: 1.2rem;
   font-weight: 300;

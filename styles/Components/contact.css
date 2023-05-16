@@ -3,29 +3,22 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  /* min-height: 100vh; */
+  max-width: 60vw;
   margin-left: auto;
   margin-right: auto;
 }
 
-.contact-greeting {
-  font-weight: 500;
-  font-size: clamp(16px, 1vw, 20px);
-  text-align: center;
-  color: var(--main-pink);
-}
-
 .contact-subheading {
   color: var(--lightest-slate);
-  width: 50%;
+  font-size: clamp(40px, 5vw, 60px);
   text-align: center;
-  border-bottom: solid 2px var(--main-pink);
+  /* border-bottom: solid 2px var(--main-pink); */
   margin-bottom: 1rem;
-  padding-bottom: 2rem;
 }
 
 .contact-body {
-  width: var(--main-width);
+  width: 100%;
   font-size: var(--fz-body);
   font-weight: var(--fw-body);
   line-height: var(--main-lh);

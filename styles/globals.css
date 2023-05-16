@@ -32,12 +32,11 @@
   --main-width: 52vw;
 
   /* body of text variables */
-  --fz-body: clamp(15px, 1vw, 18px);
+  --fz-body: clamp(14px, 1vw, 17px);
   --fw-body: 300;
 
   --tab-height: 42px;
   --tab-width: 120px;
-
 }
 
 html {
@@ -55,6 +54,10 @@ main {
   margin-left: 5rem;
   padding: 1rem;
   min-height: 100vh;
+}
+
+footer {
+  margin-left: 5rem;
 }
 
 section {
@@ -104,23 +107,56 @@ button {
     flex-direction: column;
   }
 
+  .about-photo {
+    margin-bottom: 7.5em;
+  }
+
   .exp-inner {
+    width: 100%;
     flex-direction: column;
-    flex-wrap: wrap;
+    /* padding: 0 10rem 0; */
+    /* margin: 0 10rem 0; */
+  }
+
+  .exp-info-container {
+    display: flex;
   }
 
   .tab {
-    border-bottom: 2px solid var(--nav-bg-primary);
+    border-left: 2px solid var(--nav-bg-primary);
   }
 
   .active {
     color: var(--main-pink);
-    border-bottom: 2px solid var(--main-pink);
+    border-left: 2px solid var(--main-pink);
   }
 
   .tablist {
-    flex-direction: row;
-    overflow: scroll;
+    flex-direction: column;
+    overflow-y: scroll;
+  }
+
+  .tablist::-webkit-scrollbar {
+    width: .5rem;
+  }
+
+  .tablist::-webkit-scrollbar-track {
+    background: var(--main-pink);
+  }
+
+  .tablist::-webkit-scrollbar-thumb {
+    background: #1e1e24;
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 0 5rem 0; /* remove gap we previously set in main element */
+  }
+
+  .contact-container {
+    min-height: 60vh;
   }
 }
 
@@ -172,5 +208,9 @@ button {
 
   .tablist {
     flex-direction: column;
+  }
+
+  .contact-container {
+    min-height: 100vh;
   }
 }

@@ -31,13 +31,13 @@ export default function ProjectItem({ project }) {
           <h3 className="project-title">{project.title}</h3>
           <div className="project-description">{project.description}</div>
         </header>
-        <footer>
+        <div>
           <ul className="project-techstack">
             {project.technologies.map((tech, index) => (
               <li key={index}>{tech}</li>
             ))}
           </ul>
-        </footer>
+        </div>
       </div>
     </a>
   )

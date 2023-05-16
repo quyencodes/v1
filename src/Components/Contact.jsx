@@ -2,8 +2,7 @@ export default function Contact() {
   return (
     <section id="contact">
       <div className="contact-container">
-        {/* <h4 className="contact-greeting">What's Next</h4> */}
-        <h1 className="contact-subheading">Let's Connect</h1>
+        <h2 className="contact-subheading">Let's Connect</h2>
         <p className="contact-body">
           My inbox is always open if you are interested in connecting. Whether
           you have a question or just want to say hi, I'll try my best to get

@@ -30,18 +30,19 @@
 .home-title {
   line-height: 1rem;
   color: var(--slate);
-  font-size: clamp(15.5px, 1vw, 18.5px);
+  font-size: clamp(16px, 1vw, 19px);
   font-weight: 500;
   margin-bottom: 1rem;
 }
 
+/* Welcome to my personal portfolio...*/
 .home-welcome {
   width: 80%;
   line-height: 1.25rem;
   text-align: center;
   color: var(--slate);
   font-weight: 300;
-  font-size: clamp(15.5px, 1vw, 18.5px);
+  font-size: var(--fz-body);
   margin-bottom: 1rem;
 }
 
@@ -51,7 +52,7 @@
   text-align: center;
   color: var(--slate);
   font-weight: 300;
-  font-size: clamp(15px, 1vw, 18px);
+  font-size: var(--fz-body);
   margin-bottom: 1rem;
 }
 
