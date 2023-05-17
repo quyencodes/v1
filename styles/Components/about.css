@@ -36,21 +36,22 @@
   padding: 0px;
   margin-bottom: 1rem;
   line-height: 1.75rem;
-  font-size: clamp(15px, 1vw, 18px);
   font-weight: 300;
 }
 
 .about-list {
   list-style: square;
   padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: var(--fz-body);
 }
 
 .about-photo > img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-height: 20vw;
-  max-width: 20vw;
+  max-height: 18.5vw;
+  max-width: 18.5vw;
 }
 
 .about-headshot {
