@@ -46,15 +46,15 @@
   font-size: var(--fz-body);
 }
 
-.about-photo > img {
+.about-photo {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-height: 18.5vw;
-  max-width: 18.5vw;
 }
 
 .about-headshot {
+  max-height: 18.5vw;
+  max-width: 18.5vw;
   border: 2px var(--main-pink) solid;
   border-radius: 50%;
 }
