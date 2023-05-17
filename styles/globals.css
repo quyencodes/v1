@@ -117,14 +117,11 @@ button {
 
   .about-container {
     flex-direction: column;
-    justify-content: center;
   }
 
   .about-headshot {
     margin-top: 2rem;
     margin-bottom: 10rem;
-    margin-left: auto;
-    margin-right: auto;
     min-height: 250px;
     min-width: 250px;
   }
