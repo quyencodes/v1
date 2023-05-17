@@ -48,6 +48,7 @@
 .about-headshot {
   border: 2px var(--main-pink) solid;
   border-radius: 50%;
+  width: 16vw;
 }
 
 .about-highlight {
