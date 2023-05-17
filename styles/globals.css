@@ -122,7 +122,7 @@ button {
   }
 
   .about-photo > img {
-    margin: 2rem 0rem 10rem 0rem;
+    /* margin: 2rem 0rem 10rem 0rem; */
     min-height: 60vw;
     min-width: 60vw;
   }
