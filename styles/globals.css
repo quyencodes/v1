@@ -61,8 +61,6 @@ footer {
 }
 
 section {
-  /* height: 100vh;
-  min-height: 100vh; */
   padding: 0;
 }
 
@@ -119,11 +117,14 @@ button {
 
   .about-container {
     flex-direction: column;
+    justify-content: center;
   }
 
   .about-headshot {
     margin-top: 2rem;
     margin-bottom: 10rem;
+    margin-left: auto;
+    margin-right: auto;
     min-height: 250px;
     min-width: 250px;
   }
@@ -210,6 +211,7 @@ button {
 
   .about-container {
     flex-direction: row;
+    justify-content: flex-start;
   }
 
   .about-photo > img {
