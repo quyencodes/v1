@@ -25,7 +25,7 @@ const data = [
     ],
   },
   {
-    title: 'Deal Advisory / Audit Summer Analyst',
+    title: 'Deal Advisory / Audit Intern',
     companyName: 'KPMG',
     startDate: 'June 2019',
     endDate: 'August 2020',
